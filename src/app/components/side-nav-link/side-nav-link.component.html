@@ -1,0 +1,13 @@
+<div
+  class="flex flex-row flex-nowrap flex-shrink-0 place-content-start place-items-center items-center pl-8 py-3 border-r-[3px] border-solid bg-white hover:bg-gray-100"
+  [ngClass]="highlighted ? 'border-r-[#FF385C]' : 'border-r-transparent'"
+>
+  <img [src]="assetPath" alt="" class="w-6 mr-2 transform-none flex-shrink-0" />
+  <p
+    class="text-sm whitespace-nowrap pointer-events-none"
+    [ngClass]="highlighted ? 'font-semibold' : 'font-normal'"
+    *ngIf="expanded"
+  >
+    {{ title }}
+  </p>
+</div>

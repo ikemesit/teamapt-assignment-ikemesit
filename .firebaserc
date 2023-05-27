@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "personal-90858": {
+      "hosting": {
+        "teamapt-test": [
+          "teamapt-assignment-ikemesit"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "personal-90858"
+  }
+}
